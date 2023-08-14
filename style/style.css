@@ -1,0 +1,53 @@
+.main-div{
+    margin-top: 120px;
+}
+.heading{
+    text-align: center;
+}
+#container{
+    display: flex;
+    width: 80%;
+    margin: 5px auto;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-item{
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.counter{
+    font-size: 40px;
+}
+#Reset-all{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    color: rgb(24, 22, 22);
+    background-color: rgb(221, 221, 120);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+
+}
+
+.btn, .btn-1{
+    padding: 10px 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(58, 131, 58);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-1{
+    background-color: rgb(207, 85, 85);
+}
